@@ -1,7 +1,5 @@
 #include <stdio.h>
 
-
-//Been here
 int main()
 {
 	int x = 32;
