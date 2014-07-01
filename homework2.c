@@ -7,7 +7,8 @@ int main()
 	printf("Enter two integers that are divisible.\n");
 	scanf(" %d, %d", &x, &y);
 
-	if (x % y == 0) {
+	if (x % y == 0) 
+	{
 		printf("These integers are divisible.\n");
 	}
 	else
