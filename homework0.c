@@ -2,12 +2,13 @@
 
 int main()
 {
-	int x = 32;
+	int x = 32, t;
 
 	while (x > 31 && x < 128)
 	{
-		printf("%d %c\n", x, x);
+		printf("%d %c\t|", x, x);
 		x++;
 	}
+
 	return 0;
 }
