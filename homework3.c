@@ -35,14 +35,19 @@ int main(int argc, const char *argv[])
 	{
 	case 0:
 	
-		printf(" %p", struct emoloyee *create_employee());		
-		break;
+	printf(" %p", struct emoloyee *create_employee());		
+	
+	break;
 
 	case 1:
 	
-		printf(" %p", struct employee *print_list());
-		
-		break;
+	printf(" %p", struct employee *print_list());
+	
+	break;
+
+	default:
+
+	printf("Invalid option.\n");
 	}
 	
 	return 0;
